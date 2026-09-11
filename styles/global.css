@@ -19,10 +19,22 @@
     --semantic-error: #DC2626;
     
     --font-family: 'Poppins', sans-serif;
-    --text: 400 1rem/1.5 var(var(--font-family));  /*1rem = 16px*/
-    --text-sm: 400 .875rem/1.4 var(var(--font-family)); /* .875rem = 14px*/
+    --text: 400 1rem/1.5 var(--font-family);  /*1rem = 16px*/
+    --text-sm: 400 .875rem/1.4 var(--font-family); /* .875rem = 14px*/
 }
 
 body{
     overflow: hidden;
+
+    font: var(--text);
+    color: var(--text-secondary);
+}
+
+h1, h2, h3 {
+    color: var(--text-primary);
+}
+
+img{
+   max-width: 100%;
+   height: auto;
 }
