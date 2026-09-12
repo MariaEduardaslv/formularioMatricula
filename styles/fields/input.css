@@ -66,7 +66,7 @@ fieldset + fieldset {
 
 input {
    &[disabled] {
-    background-color: var(--surface-disabled);
+    background-color: #E7E5E4;
     border: 1px solid var(--stroke-default); 
     color: var(--text-primary);
    } 
